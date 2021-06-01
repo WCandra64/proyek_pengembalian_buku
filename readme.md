@@ -4,9 +4,9 @@ langkah2 bikin repository
 3. _git clone https://github.com/WCandra64/proyek_pengembalian_buku.git_
 4. _git remote add origin https://github.com/WCandra64/proyek_pengembalian_buku.git_
 5. _git checkout -b nama_klen(misal fadel) *_
-
-tiap mau update repositori lokal disamain sama repo remote, pake _git clone_
-langkah 5 buat ganti branch, branch utama tu master, fungsi branch biar file yang ada di branch satu sama laen ga kecampur, jadi misal di master ada file main.cpp, terus di branch fadel ada file main.cpp, 2 file itu isinya beda
+<br/>
+tiap mau update repositori lokal disamain sama repo remote, pake _git pull_
+<br/>langkah 5 buat ganti branch, branch utama tu master, fungsi branch biar file yang ada di branch satu sama laen ga kecampur, jadi misal di master ada file main.cpp, terus di branch fadel ada file main.cpp, 2 file itu isinya beda<br/>
 buat pindah branch pake _git checkout -b nama_branch_
 
 langkah2 upload file (upload cpp nya doang aja)
@@ -14,5 +14,5 @@ langkah2 upload file (upload cpp nya doang aja)
 2. _git commit -m "pesan upload (diisi perubahan yang diupload)"_
 3. _git push origin nama_brach_
 
-buat hapus file yang udah di add/stage pake command _git reset head --_
+buat hapus file yang udah di add/stage pake command _git reset head --_<br/>
 buat cek file yang udah di add/stage pake command _git status_
