@@ -75,7 +75,7 @@ void coba_lagi() {
 
 // deklarasi prosedur menu 1 (input data)
 void input_data() {
-    string nama_file;
+    char nama_file[100];
     int banyak_data;
     record_pengembalian data_pengembalian;
 
@@ -108,6 +108,9 @@ void input_data() {
         
         cout<<"\n";
     }
+
+    // nutup file
+    arsip_pengembalian.close();
 
     coba_lagi();
 }
