@@ -8,7 +8,7 @@ langkah2 bikin repository
 tiap mau update repositori lokal disamain sama repo remote, pake _git pull_
 <br/>langkah 5 buat ganti branch, branch utama tu master, fungsi branch biar file yang ada di branch satu sama laen ga kecampur, jadi misal di master ada file main.cpp, terus di branch fadel ada file main.cpp, 2 file itu isinya beda<br/>
 buat pindah branch pake _git checkout -b nama_branch_
-
+<br/>
 langkah2 upload file (upload cpp nya doang aja)
 1. _git add namafile.ekstensi_ (kalo mau add semua file pake) _git add *_
 2. _git commit -m "pesan upload (diisi perubahan yang diupload)"_
