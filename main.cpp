@@ -54,7 +54,7 @@ int main() {
             coba_lagi();
             break;
         }
-        system("cls");
+        system("cls"); 
     }
 
     return 0;
