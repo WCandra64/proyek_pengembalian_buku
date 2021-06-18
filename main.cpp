@@ -135,7 +135,7 @@ void output_data(string nm_file, string nm_output){
         cin>>nama_file;
         cout<<"\n";
     }
-    ifstream arsip_pengembalian(nama_file);
+    ifstream arsip_pengembalian(nama_file.c_str());
 
    	if(arsip_pengembalian.is_open()) {
         cout<<setfill('=')<<setw(66)<<'='<<"\n";
@@ -240,7 +240,7 @@ void search_data() {
                             ketemu = false;
 
                             // menyimpan data hasil pencarian ke dalam file pencarian
-                            arsip_pencarian_input<<data_ketemu.id_buku<<"\t"<<data_ketemu.id_peminjam<<"\t"<<data_ketemu.id_petugas<<"\t"<<data_ketemu.tgl_kembali<<"\n";
+                            arsip_pencarian_input<<"\t"<<data_ketemu.id_buku<<"\t"<<data_ketemu.id_peminjam<<"\t"<<data_ketemu.id_petugas<<"\t"<<data_ketemu.tgl_kembali<<"\n";
                         }
                     }
                     i++;
